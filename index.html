@@ -11,8 +11,14 @@
         <h1>YCIT-027-Assignment-1-of-1</h1>
         <p>Click the button to get your cat image</p>
         <button type="button" onclick="getCatImage()">Get Cat Image</button>
+        <span>  Click to get a cat image</span>
         <div class=".image-container">
-            <img src="" id="catImage" alt="cat image" />
+          <img src="" id="catImage" alt="cat image" />
         </div>
+        <script>
+          const img = document.querySelector("#catImage");
+          img.src = "https://en.pimg.jp/081/385/266/1/81385266.jpg";
+        </script>
+      </body>
     </body>
 </html>
